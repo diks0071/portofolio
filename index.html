@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANDIKA.H | Personal Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- JS -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <h1>PORTOFOLIO ANDIKA.H</h1>
+</div>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="logo">ANDIKA.H</div>
+  <ul>
+    <li><a href="#home" class="active">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+   <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+
+  </ul>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="fade">
+  <div class="hero-grid">
+    <!-- LEFT CONTENT -->
+   <div class="hero-left">
+  <h1>I'm <span class="highlight">ANDIKA.H</span></h1>
+  <p class="tagline">Building clean digital experiences & creative solutions.</p>
+  
+  <p class="hero-desc">
+    Pelajar & web enthusiast yang fokus di <strong>Web Development</strong>, 
+    <strong>UI/UX Design</strong>, dan <strong>Personal Branding</strong>.  
+    Gw percaya bahwa website bukan cuma soal tampilan, tapi cara 
+    identitas dan pesan tersampaikan dengan kuat.
+  </p>
+  
+  <p class="hero-desc">
+    Gw suka eksplorasi teknologi baru, nyoba framework modern kayak React, Tailwind, 
+    dan bikin project yang interaktif dan eye-catching.  
+    Selain coding, gw juga suka game strategi & puzzle, karena itu ngelatih fokus, 
+    problem solving, dan kreatifitas gw.
+  </p>
+  
+  <div class="hero-action">
+    <a href="#contact" class="btn-main">Let's Talk 💬</a>
+  </div>
+</div>
+
+    <!-- RIGHT MEDIA -->
+    <div class="hero-right">
+      <img src="assets/profile.png" alt="Ryu Photo">
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="fade">
+  <h2>About Me</h2>
+  <p>
+    Hi, gw <strong>ANDIKA.H</strong> — pelajar yang fokus di dunia web development,
+    visual design, dan personal branding. Gw percaya kalau sebuah website
+    bukan cuma soal tampilan, tapi gimana identitas dan pesan bisa tersampaikan
+    dengan jelas dan berkesan.
+  </p>
+  <p>
+    Gw terbiasa ngerjain project dengan pendekatan rapi, detail, dan konsisten.
+    Dari struktur HTML yang bersih, styling yang nyaman dilihat,
+    sampai animasi halus yang bikin pengalaman pengguna terasa hidup.
+    Buat gw, kualitas kecil itu penting.
+  </p>
+  <p>
+    Di luar ngoding dan desain, gw juga aktif main game online.
+    Game kayak <strong>Mobile Legends: Bang Bang</strong> dan
+    <strong>Genshin Impact</strong> bukan cuma hiburan buat gw,
+    tapi juga ngelatih strategi, kerja tim, fokus, dan pengambilan keputusan.
+    Gw juga suka game yang melatih otak karena itu ngebantu gw
+    berpikir lebih logis dan kreatif.
+  </p>
+  <p>
+    Semua hal itu kebawa ke cara gw ngerjain sesuatu:
+    mikir sistematis, adaptif, dan gak gampang stuck.
+    Target gw sederhana — terus berkembang, bikin karya yang punya nilai,
+    dan membangun personal branding yang solid lewat dunia digital.
+  </p>
+</section>
+
+<!-- VIDEO DI BAWAH ABOUT -->
+<section id="about-video" class="fade">
+  <h2>Watch My Intro</h2>
+  <div class="video-container">
+    <iframe 
+      id="ytPlayer"
+      src="https://www.youtube.com/embed/FPR6rmM5ItM?playlist=FPR6rmM5ItM&loop=1&autoplay=1&mute=1&controls=0&rel=0&enablejsapi=1"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+    <button id="videoToggle">⏸</button>
+  </div>
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills" class="fade">
+  <h2>Skills</h2>
+  <div class="skills-container">
+
+    <div class="skill">
+      <h3>HTML & CSS</h3>
+      <div class="skill-bar">
+        <div class="skill-fill" data-percent="95%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h3>JavaScript (ES6+)</h3>
+      <div class="skill-bar">
+        <div class="skill-fill" data-percent="85%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h3>React.js & Tailwind</h3>
+      <div class="skill-bar">
+        <div class="skill-fill" data-percent="80%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h3>Python & Automation</h3>
+      <div class="skill-bar">
+        <div class="skill-fill" data-percent="70%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h3>UI/UX Design</h3>
+      <div class="skill-bar">
+        <div class="skill-fill" data-percent="90%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h3>Problem Solving</h3>
+      <div class="skill-bar">
+        <div class="skill-fill" data-percent="85%"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- SERVICES -->
+<section id="services" class="fade">
+  <h2>Services</h2>
+  <p>Here's what I can do for you:</p>
+
+  <div class="services-container">
+    <div class="service-card">
+      <h3>Web Development</h3>
+      <p>Bikin website keren, responsive, dan cepat sesuai kebutuhanmu.</p>
+    </div>
+    <div class="service-card">
+      <h3>UI/UX Design</h3>
+      <p>Desain tampilan dan pengalaman pengguna yang menarik dan nyaman.</p>
+    </div>
+    <div class="service-card">
+      <h3>Social Media Management</h3>
+      <p>Mengelola akun IG, TikTok, dan YouTube biar makin viral.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="fade">
+  <h2>Contact</h2>
+  <p>Interested in working together or just want to say hi?</p>
+
+  <div class="contact-btn">
+    <a href="https://wa.me/6281241378680" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+    <a href="https://www.instagram.com/dika.__.2" target="_blank" rel="noopener noreferrer">Instagram</a>
+    <a href="https://www.tiktok.com/@yutakizuna" target="_blank" rel="noopener noreferrer">TikTok</a>
+    <a href="https://youtube.com/@ryuxstore" target="_blank" rel="noopener noreferrer">YouTube</a>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+  © 2026 ANDIKA.H — Personal Portfolio
+</footer>
+
+</body>
+</html>
